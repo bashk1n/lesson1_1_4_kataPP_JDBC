@@ -11,7 +11,7 @@ public class Main {
         // реализуйте алгоритм здесь
         UserService userService = new UserServiceImpl();
         userService.createUsersTable();
-        userService.saveUser("Max", "MAximov", (byte) 22);
+        userService.saveUser("Max", "Maximov", (byte) 22);
         userService.saveUser("IVAN", "Ivanov", (byte) 44);
         userService.saveUser("Alexey", "Alexeev", (byte) 23);
         userService.saveUser("Alexandr", "Alexandrovich", (byte) 13);
